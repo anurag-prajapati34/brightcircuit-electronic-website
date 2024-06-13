@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    margin: 0;
+}
+
+header{
+    width: 100%;
+}
+#logoimg {
+    height: 50px;
+    width: 100px;
+  }
+  #navbar {
+    display: inline-flex;
+    height: 50px;
+    width: 100%;
+    background-color:#9ba89b;
+    align-items: center;
+    
+   
+  }
+  
+  .a {
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+   
+  
+  #logodiv {
+    width: 20%;
+  }
+  /* #logo {
+    color:white;
+    font-family: cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+  } */
+  #NavLogo{
+    color:black;
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px;
+    
+  }
+  
+  #navoption {
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-evenly;
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  .dropdown:hover{
+    cursor: pointer;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown-content a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    margin-top:10px;
+   font-weight: bold;
+  }
+  .dropdown-content a:hover{
+    color:orange;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.order-form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    padding-top:5px;
+
+    
+    width: 400px;
+
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#formResponse {
+    margin-top: 20px;
+    color: #28a745;
+}

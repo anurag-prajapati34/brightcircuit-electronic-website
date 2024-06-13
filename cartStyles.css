@@ -1,0 +1,16 @@
+#boxx{
+    height: 300px;
+    background-color: black;
+}
+
+#xyz{
+    height: 300px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pa{
+    background-color: purple;
+}
